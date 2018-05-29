@@ -25,7 +25,7 @@ SECRET_KEY = 'uya-bq&ncw$(962sqzw4njj8rq9^&=ty3uw8a50^f$&vygorio'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-18-220-111-205.us-east-2.compute.amazonaws.com']
 
 
 # Application definition
@@ -122,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'profiles_api.UserProfile'
+AUTH_USER_MODEL = 'profiles_api.UserProfile'-
